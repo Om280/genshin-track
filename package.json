@@ -1,0 +1,31 @@
+{
+  "name": "genshin-track",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Genshin Impact build tracker — farming planner, build guides, team comps, resin math, and GOOD-format import. Runs fully offline in your browser with localStorage.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data": "node scripts/build-data.mjs"
+  },
+  "keywords": [
+    "genshin-impact",
+    "tracker",
+    "farming-planner",
+    "react",
+    "vite"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.3",
+    "vite": "^8.2.2"
+  },
+  "devDependencies": {
+    "genshin-db": "^5.2.13"
+  }
+}
