@@ -1,18 +1,31 @@
-# Dependencies
+# Local dependencies and generated output
 node_modules/
-
-# Build output
 dist/
+build/
+coverage/
+.vite/
+.cache/
+.npm/
+.local/
 
-# Logs
-*.log
-npm-debug.log*
-
-# Editor / OS files
-.DS_Store
-.vscode/
-.idea/
-
-# Local env files
+# Private files, credentials, and local runtime state
 .env
-.env.local
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
+.netrc
+.git-credentials
+
+# User-provided reference screenshots and local-only files
+uploads/
+.sudo_as_admin_successful
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*.log

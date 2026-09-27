@@ -1,0 +1,3 @@
+// Curated teams only. KQM figcaptions lacking reviewed roles are source examples, not recommendations.
+export function teamSimilarity(a,b){const overlap=(a.memberIds||[]).filter(id=>(b.memberIds||[]).includes(id)).length;const sameArchetype=a.archetype?.trim().toLowerCase()===b.archetype?.trim().toLowerCase();return {overlap,nearVariant:overlap>=3,sameArchetype,requiresEditorialReason:overlap>=3&&!a.alternativeReason&&!b.alternativeReason}}
+export function auditTeamVariety(teams=[]){const flagged=[];for(let i=0;i<teams.length;i++)for(let j=i+1;j<teams.length;j++){const result=teamSimilarity(teams[i],teams[j]);if(result.requiresEditorialReason)flagged.push({first:teams[i].id,second:teams[j].id,...result})}return flagged}

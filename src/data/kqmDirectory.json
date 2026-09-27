@@ -1,0 +1,2087 @@
+{
+  "10000121": {
+    "characterId": "10000121",
+    "name": "Aino",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/aino-quickguide/",
+      "version": "6.0"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/aino/",
+      "version": "6.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000038": {
+    "characterId": "10000038",
+    "name": "Albedo",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/albedo-quickguide/",
+      "version": "6.4"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/albedo/",
+      "version": "4.0"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/albedo/",
+      "version": "6.4"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000078": {
+    "characterId": "10000078",
+    "name": "Alhaitham",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/alhaitham-quickguide/",
+      "version": "4.7"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/alhaitham/",
+      "version": "5.4"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000062": {
+    "characterId": "10000062",
+    "name": "Aloy",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/aloy-quickguide/",
+      "version": "4.5"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/aloy/",
+      "version": "2.4"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000148": {
+    "characterId": "10000148",
+    "name": "Alyosha",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/alyosha-quickguide/",
+      "version": "7.0"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/alyosha/",
+      "version": "7.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000021": {
+    "characterId": "10000021",
+    "name": "Amber",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/amber-quickguide/",
+      "version": "5.4"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/amber/",
+      "version": "2.6"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000057": {
+    "characterId": "10000057",
+    "name": "Arataki Itto",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/itto-quickguide/",
+      "version": "5.6"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/itto/",
+      "version": "3.1"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/itto/",
+      "version": "5.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000096": {
+    "characterId": "10000096",
+    "name": "Arlecchino",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/arlecchino-quickguide/",
+      "version": "6.7"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000082": {
+    "characterId": "10000082",
+    "name": "Baizhu",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/baizhu-quickguide/",
+      "version": "3.6"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/baizhu/",
+      "version": "4.6"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/baizhu/",
+      "version": "7.1"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000014": {
+    "characterId": "10000014",
+    "name": "Barbara",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/barbara-quickguide/",
+      "version": "3.2"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/barbara/",
+      "version": "2.5"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/barbara/",
+      "version": "5.7"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000024": {
+    "characterId": "10000024",
+    "name": "Beidou",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/beidou-quickguide/",
+      "version": "5.8"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/beidou/",
+      "version": "3.1"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/beidou/",
+      "version": "5.3"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000032": {
+    "characterId": "10000032",
+    "name": "Bennett",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/bennett-quickguide/",
+      "version": "5.7"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/bennett/",
+      "version": "2.6"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/bennett/",
+      "version": "5.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000072": {
+    "characterId": "10000072",
+    "name": "Candace",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/candace-quickguide/",
+      "version": "6.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/candace/",
+      "version": "4.2"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000088": {
+    "characterId": "10000088",
+    "name": "Charlotte",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/charlotte-quickguide/",
+      "version": "4.7"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/charlotte/",
+      "version": "5.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000104": {
+    "characterId": "10000104",
+    "name": "Chasca",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/chasca-quickguide/",
+      "version": "5.8"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/chasca/",
+      "version": "5.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000090": {
+    "characterId": "10000090",
+    "name": "Chevreuse",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/chevreuse-quickguide/",
+      "version": "5.6"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000094": {
+    "characterId": "10000094",
+    "name": "Chiori",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/chiori-quickguide/",
+      "version": "4.5"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/chiori/",
+      "version": "5.1"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000036": {
+    "characterId": "10000036",
+    "name": "Chongyun",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/chongyun-quickguide/",
+      "version": "3.5"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/chongyun/",
+      "version": "2.6"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/chongyun/",
+      "version": "5.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000107": {
+    "characterId": "10000107",
+    "name": "Citlali",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/citlali-quickguide/",
+      "version": "5.4"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/citlali/",
+      "version": "5.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000098": {
+    "characterId": "10000098",
+    "name": "Clorinde",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/clorinde-quickguide/",
+      "version": "5.7"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000067": {
+    "characterId": "10000067",
+    "name": "Collei",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/collei-quickguide/",
+      "version": "5.8"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/collei/",
+      "version": "3.1"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/collei/",
+      "version": "6.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000125": {
+    "characterId": "10000125",
+    "name": "Columbina",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/columbina-quickguide/",
+      "version": "7.0"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000071": {
+    "characterId": "10000071",
+    "name": "Cyno",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/cyno-quickguide/",
+      "version": "4.2"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/cyno/",
+      "version": "4.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000115": {
+    "characterId": "10000115",
+    "name": "Dahlia",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/dahlia-quickguide/",
+      "version": "5.7"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/dahlia/",
+      "version": "5.7"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000079": {
+    "characterId": "10000079",
+    "name": "Dehya",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/dehya-quickguide/",
+      "version": "6.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/dehya/",
+      "version": "4.0"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000016": {
+    "characterId": "10000016",
+    "name": "Diluc",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/diluc-quickguide/",
+      "version": "3.6"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/diluc/",
+      "version": "2.8"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/diluc/",
+      "version": "5.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000039": {
+    "characterId": "10000039",
+    "name": "Diona",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/diona-quickguide/",
+      "version": "7.1"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/diona/",
+      "version": "3.8"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/diona/",
+      "version": "7.1"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000068": {
+    "characterId": "10000068",
+    "name": "Dori",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/dori-quickguide/",
+      "version": "4.0"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000123": {
+    "characterId": "10000123",
+    "name": "Durin",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/durin-quickguide/",
+      "version": "7.0"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000099": {
+    "characterId": "10000099",
+    "name": "Emilie",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/emilie-quickguide/",
+      "version": "5.4"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/emilie/",
+      "version": "6.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000112": {
+    "characterId": "10000112",
+    "name": "Escoffier",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/escoffier-quickguide/",
+      "version": "6.0"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000051": {
+    "characterId": "10000051",
+    "name": "Eula",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/eula-quickguide/",
+      "version": "3.8"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/eula/",
+      "version": "2.7"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/eula/",
+      "version": "5.1"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000076": {
+    "characterId": "10000076",
+    "name": "Faruzan",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/faruzan-quickguide/",
+      "version": "4.6"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/faruzan/",
+      "version": "4.6"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/faruzan/",
+      "version": "5.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000031": {
+    "characterId": "10000031",
+    "name": "Fischl",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/fischl-quickguide/",
+      "version": "4.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/fischl/",
+      "version": "4.7"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/fischl/",
+      "version": "6.7"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000120": {
+    "characterId": "10000120",
+    "name": "Flins",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/flins-quickguide/",
+      "version": "6.5"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/flins/",
+      "version": "7.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000085": {
+    "characterId": "10000085",
+    "name": "Freminet",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/freminet-quickguide/",
+      "version": "6.2"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000089": {
+    "characterId": "10000089",
+    "name": "Furina",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/furina-quickguide/",
+      "version": "6.1"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/furina/",
+      "version": "5.3"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/furina/",
+      "version": "6.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000092": {
+    "characterId": "10000092",
+    "name": "Gaming",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/gaming-quickguide/",
+      "version": "5.5"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/gaming/",
+      "version": "7.1"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000037": {
+    "characterId": "10000037",
+    "name": "Ganyu",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/ganyu-quickguide/",
+      "version": "6.3"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/ganyu/",
+      "version": "4.0"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000055": {
+    "characterId": "10000055",
+    "name": "Gorou",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/gorou-quickguide/",
+      "version": "6.3"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/gorou/",
+      "version": "3.0"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/gorou/",
+      "version": "5.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000046": {
+    "characterId": "10000046",
+    "name": "Hu Tao",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/hu-tao-quickguide/",
+      "version": "3.3"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/hu-tao/",
+      "version": "4.0"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/hu-tao/",
+      "version": "5.7"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000110": {
+    "characterId": "10000110",
+    "name": "Iansan",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/iansan-quickguide/",
+      "version": "6.1"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/iansan/",
+      "version": "5.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000113": {
+    "characterId": "10000113",
+    "name": "Ifa",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/ifa-quickguide/",
+      "version": "6.0"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000127": {
+    "characterId": "10000127",
+    "name": "Illuga",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/illuga-quickguide/",
+      "version": "6.3"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/illuga/",
+      "version": "6.3"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000116": {
+    "characterId": "10000116",
+    "name": "Ineffa",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/ineffa-quickguide/",
+      "version": "6.4"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/ineffa/",
+      "version": "7.1"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000124": {
+    "characterId": "10000124",
+    "name": "Jahoda",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/jahoda-quickguide/",
+      "version": "6.2"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/jahoda/",
+      "version": "6.2"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000003": {
+    "characterId": "10000003",
+    "name": "Jean",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/jean-quickguide/",
+      "version": "4.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/jean/",
+      "version": "2.4"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000100": {
+    "characterId": "10000100",
+    "name": "Kachina",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/kachina-quickguide/",
+      "version": "5.0"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/kachina/",
+      "version": "5.3"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000047": {
+    "characterId": "10000047",
+    "name": "Kaedehara Kazuha",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/kazuha-quickguide/",
+      "version": "4.6"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/kazuha/",
+      "version": "4.5"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/kazuha/",
+      "version": "5.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000015": {
+    "characterId": "10000015",
+    "name": "Kaeya",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/kaeya-quickguide/",
+      "version": "6.1"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/kaeya/",
+      "version": "3.8"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000002": {
+    "characterId": "10000002",
+    "name": "Kamisato Ayaka",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/ayaka-quickguide/",
+      "version": "5.8"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/ayaka/",
+      "version": "4.1"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/ayaka/",
+      "version": "6.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000066": {
+    "characterId": "10000066",
+    "name": "Kamisato Ayato",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/ayato-quickguide/",
+      "version": "6.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/ayato/",
+      "version": "5.1"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/ayato/",
+      "version": "5.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000081": {
+    "characterId": "10000081",
+    "name": "Kaveh",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/kaveh-quickguide/",
+      "version": "5.7"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/kaveh/",
+      "version": "5.7"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/kaveh/",
+      "version": "6.3"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000042": {
+    "characterId": "10000042",
+    "name": "Keqing",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/keqing-quickguide/",
+      "version": "6.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/keqing/",
+      "version": "6.6"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000101": {
+    "characterId": "10000101",
+    "name": "Kinich",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/kinich-quickguide/",
+      "version": "5.6"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/kinich/",
+      "version": "5.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000061": {
+    "characterId": "10000061",
+    "name": "Kirara",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/kirara-quickguide/",
+      "version": "4.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/kirara/",
+      "version": "4.8"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/kirara/",
+      "version": "5.3"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000029": {
+    "characterId": "10000029",
+    "name": "Klee",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/klee-quickguide/",
+      "version": "6.3"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/klee/",
+      "version": "4.5"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000056": {
+    "characterId": "10000056",
+    "name": "Kujou Sara",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/sara-quickguide/",
+      "version": "3.2"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/sara/",
+      "version": "3.3"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/sara/",
+      "version": "5.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000065": {
+    "characterId": "10000065",
+    "name": "Kuki Shinobu",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/shinobu-quickguide/",
+      "version": "5.4"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000108": {
+    "characterId": "10000108",
+    "name": "Lan Yan",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/lan-yan-quickguide/",
+      "version": "5.3"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/lan-yan/",
+      "version": "5.3"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000119": {
+    "characterId": "10000119",
+    "name": "Lauma",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/lauma-quickguide/",
+      "version": "6.4"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/lauma/",
+      "version": "6.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000074": {
+    "characterId": "10000074",
+    "name": "Layla",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/layla-quickguide/",
+      "version": "4.6"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/layla/",
+      "version": "3.8"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000130": {
+    "characterId": "10000130",
+    "name": "Linnea",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/linnea-quickguide/",
+      "version": "6.5"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/linnea/",
+      "version": "6.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000006": {
+    "characterId": "10000006",
+    "name": "Lisa",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/lisa-quickguide/",
+      "version": "6.5"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/lisa/",
+      "version": "6.4"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000129": {
+    "characterId": "10000129",
+    "name": "Lohen",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/lohen-quickguide/",
+      "version": "7.1"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000083": {
+    "characterId": "10000083",
+    "name": "Lynette",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/lynette-quickguide/",
+      "version": "4.7"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000084": {
+    "characterId": "10000084",
+    "name": "Lyney",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/lyney-quickguide/",
+      "version": "4.0"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/lyney/",
+      "version": "5.3"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000106": {
+    "characterId": "10000106",
+    "name": "Mavuika",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/mavuika-quickguide/",
+      "version": "5.7"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/mavuika/",
+      "version": "5.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000080": {
+    "characterId": "10000080",
+    "name": "Mika",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/mika-quickguide/",
+      "version": "4.6"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/mika/",
+      "version": "4.6"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/mika/",
+      "version": "4.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000041": {
+    "characterId": "10000041",
+    "name": "Mona",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/mona-quickguide/",
+      "version": "4.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/mona/",
+      "version": "2.4"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/mona/",
+      "version": "5.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000102": {
+    "characterId": "10000102",
+    "name": "Mualani",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/mualani-quickguide/",
+      "version": "5.8"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/mualani/",
+      "version": "5.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000073": {
+    "characterId": "10000073",
+    "name": "Nahida",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/nahida-quickguide/",
+      "version": "5.6"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/nahida/",
+      "version": "3.8"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/nahida/",
+      "version": "5.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000091": {
+    "characterId": "10000091",
+    "name": "Navia",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/navia-quickguide/",
+      "version": "5.4"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/navia/",
+      "version": "6.6"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/navia/",
+      "version": "6.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000122": {
+    "characterId": "10000122",
+    "name": "Nefer",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/nefer-quickguide/",
+      "version": "6.1"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/nefer/",
+      "version": "6.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000087": {
+    "characterId": "10000087",
+    "name": "Neuvillette",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/neuvillette-quickguide/",
+      "version": "6.3"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/neuvillette/",
+      "version": "5.8"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/neuvillette/",
+      "version": "6.3"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000131": {
+    "characterId": "10000131",
+    "name": "Nicole",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/nicole-quickguide/",
+      "version": "6.7"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/nicole/",
+      "version": "6.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000070": {
+    "characterId": "10000070",
+    "name": "Nilou",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/nilou-quickguide/",
+      "version": "3.5"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/nilou/",
+      "version": "4.8"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/nilou/",
+      "version": "7.1"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000027": {
+    "characterId": "10000027",
+    "name": "Ningguang",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/ningguang-quickguide/",
+      "version": "5.4"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/ningguang/",
+      "version": "3.3"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/ningguang/",
+      "version": "5.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000034": {
+    "characterId": "10000034",
+    "name": "Noelle",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/noelle-quickguide/",
+      "version": "6.7"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/noelle/",
+      "version": "4.5"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/noelle/",
+      "version": "6.7"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000150": {
+    "characterId": "10000150",
+    "name": "Odette",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/odette-quickguide/",
+      "version": "7.0"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/odette/",
+      "version": "7.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000105": {
+    "characterId": "10000105",
+    "name": "Ororon",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/ororon-quickguide/",
+      "version": "5.8"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/ororon/",
+      "version": "5.2"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000132": {
+    "characterId": "10000132",
+    "name": "Prune",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/prune-quickguide/",
+      "version": "6.6"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/prune/",
+      "version": "6.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000035": {
+    "characterId": "10000035",
+    "name": "Qiqi",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/qiqi-quickguide/",
+      "version": "6.7"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/qiqi/",
+      "version": "2.6"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/qiqi/",
+      "version": "6.7"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000052": {
+    "characterId": "10000052",
+    "name": "Raiden Shogun",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/raiden-quickguide/",
+      "version": "5.7"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/raiden/",
+      "version": "3.4"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000020": {
+    "characterId": "10000020",
+    "name": "Razor",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/razor-quickguide/",
+      "version": "4.1"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/razor/",
+      "version": "2.2"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000045": {
+    "characterId": "10000045",
+    "name": "Rosaria",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/rosaria-quickguide/",
+      "version": "5.8"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/rosaria/",
+      "version": "3.4"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000133": {
+    "characterId": "10000133",
+    "name": "Sandrone",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/sandrone-quickguide/",
+      "version": "7.0"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/sandrone/",
+      "version": "7.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000054": {
+    "characterId": "10000054",
+    "name": "Sangonomiya Kokomi",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/kokomi-quickguide/",
+      "version": "6.4"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/kokomi/",
+      "version": "2.4"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000053": {
+    "characterId": "10000053",
+    "name": "Sayu",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/sayu-quickguide/",
+      "version": "4.0"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000097": {
+    "characterId": "10000097",
+    "name": "Sethos",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/sethos-quickguide/",
+      "version": "4.7"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/sethos/",
+      "version": "5.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000063": {
+    "characterId": "10000063",
+    "name": "Shenhe",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/shenhe-quickguide/",
+      "version": "5.6"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/shenhe/",
+      "version": "3.5"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/shenhe/",
+      "version": "5.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000059": {
+    "characterId": "10000059",
+    "name": "Shikanoin Heizou",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/heizou-quickguide/",
+      "version": "3.8"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/heizou/",
+      "version": "3.4"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000095": {
+    "characterId": "10000095",
+    "name": "Sigewinne",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/sigewinne-quickguide/",
+      "version": "4.7"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/sigewinne/",
+      "version": "5.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000114": {
+    "characterId": "10000114",
+    "name": "Skirk",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/skirk-quickguide/",
+      "version": "5.7"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/skirk/",
+      "version": "6.1"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000043": {
+    "characterId": "10000043",
+    "name": "Sucrose",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/sucrose-quickguide/",
+      "version": "6.5"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/sucrose/",
+      "version": "3.4"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/sucrose/",
+      "version": "6.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000033": {
+    "characterId": "10000033",
+    "name": "Tartaglia",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/tartaglia-quickguide/",
+      "version": "4.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/tartaglia/",
+      "version": "4.6"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/tartaglia/",
+      "version": "5.7"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000050": {
+    "characterId": "10000050",
+    "name": "Thoma",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/thoma-quickguide/",
+      "version": "5.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/thoma/",
+      "version": "3.8"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000069": {
+    "characterId": "10000069",
+    "name": "Tighnari",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/tighnari-quickguide/",
+      "version": "4.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/tighnari/",
+      "version": "3.8"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/tighnari/",
+      "version": "4.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000005-502": {
+    "characterId": "10000005-502",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/pyro-traveler-quickguide/",
+      "version": "5.5"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000005-503": {
+    "characterId": "10000005-503",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/hydro-traveler-quickguide/",
+      "version": "4.8"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/hydro-traveler/",
+      "version": "4.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000005-504": {
+    "characterId": "10000005-504",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": null,
+    "extended": {
+      "url": "https://keqingmains.com/anemo-traveler/",
+      "version": "3.0"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/anemo-traveler/",
+      "version": "2.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000005-505": {
+    "characterId": "10000005-505",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": null,
+    "extended": null,
+    "infographic": null,
+    "infographics": [
+      {
+        "title": "Cryo Traveler Stellar Conduct",
+        "url": "https://keqingmains.com/i/cryo-traveler-stellar-conduct/",
+        "version": "7.0"
+      },
+      {
+        "title": "Cryo Traveler Stellar Swirl",
+        "url": "https://keqingmains.com/i/cryo-traveler-stellar-swirl/",
+        "version": "7.0"
+      }
+    ],
+    "indexedAt": "2026-09-26"
+  },
+  "10000005-506": {
+    "characterId": "10000005-506",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": null,
+    "extended": {
+      "url": "https://keqingmains.com/geo-traveler/",
+      "version": "3.0"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/geo-traveler/",
+      "version": "2.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000005-507": {
+    "characterId": "10000005-507",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": null,
+    "extended": {
+      "url": "https://keqingmains.com/electro-traveler/",
+      "version": "2.8"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/electro-traveler/",
+      "version": "2.4"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000005-508": {
+    "characterId": "10000005-508",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/dendro-traveler-quickguide/",
+      "version": "4.0"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000007-702": {
+    "characterId": "10000007-702",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/pyro-traveler-quickguide/",
+      "version": "5.5"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000007-703": {
+    "characterId": "10000007-703",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/hydro-traveler-quickguide/",
+      "version": "4.8"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/hydro-traveler/",
+      "version": "4.8"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000007-704": {
+    "characterId": "10000007-704",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": null,
+    "extended": {
+      "url": "https://keqingmains.com/anemo-traveler/",
+      "version": "3.0"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/anemo-traveler/",
+      "version": "2.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000007-705": {
+    "characterId": "10000007-705",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": null,
+    "extended": null,
+    "infographic": null,
+    "infographics": [
+      {
+        "title": "Cryo Traveler Stellar Conduct",
+        "url": "https://keqingmains.com/i/cryo-traveler-stellar-conduct/",
+        "version": "7.0"
+      },
+      {
+        "title": "Cryo Traveler Stellar Swirl",
+        "url": "https://keqingmains.com/i/cryo-traveler-stellar-swirl/",
+        "version": "7.0"
+      }
+    ],
+    "indexedAt": "2026-09-26"
+  },
+  "10000007-706": {
+    "characterId": "10000007-706",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": null,
+    "extended": {
+      "url": "https://keqingmains.com/geo-traveler/",
+      "version": "3.0"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/geo-traveler/",
+      "version": "2.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000007-707": {
+    "characterId": "10000007-707",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": null,
+    "extended": {
+      "url": "https://keqingmains.com/electro-traveler/",
+      "version": "2.8"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/electro-traveler/",
+      "version": "2.4"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000007-708": {
+    "characterId": "10000007-708",
+    "name": "Traveler",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/dendro-traveler-quickguide/",
+      "version": "4.0"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000111": {
+    "characterId": "10000111",
+    "name": "Varesa",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/varesa-quickguide/",
+      "version": "5.5"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/varesa/",
+      "version": "5.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000128": {
+    "characterId": "10000128",
+    "name": "Varka",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/varka-quickguide/",
+      "version": "7.1"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/varka/",
+      "version": "7.1"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000022": {
+    "characterId": "10000022",
+    "name": "Venti",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/venti-quickguide/",
+      "version": "6.4"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/venti/",
+      "version": "3.3"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/venti/",
+      "version": "5.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000140": {
+    "characterId": "10000140",
+    "name": "Vodyanitsa",
+    "source": "KeqingMains",
+    "quick": null,
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/vodyanitsa/",
+      "version": "7.1"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000075": {
+    "characterId": "10000075",
+    "name": "Wanderer",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/wanderer-quickguide/",
+      "version": "4.6"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/wanderer/",
+      "version": "3.6"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/wanderer/",
+      "version": "5.3"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000086": {
+    "characterId": "10000086",
+    "name": "Wriothesley",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/wriothesley-quickguide/",
+      "version": "7.0"
+    },
+    "extended": null,
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000023": {
+    "characterId": "10000023",
+    "name": "Xiangling",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/xiangling-quickguide/",
+      "version": "4.5"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/xiangling/",
+      "version": "3.4"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000093": {
+    "characterId": "10000093",
+    "name": "Xianyun",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/xianyun-quickguide/",
+      "version": "4.7"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/xianyun/",
+      "version": "5.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000026": {
+    "characterId": "10000026",
+    "name": "Xiao",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/xiao-quickguide/",
+      "version": "4.4"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/xiao/",
+      "version": "5.5"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/xiao/",
+      "version": "5.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000103": {
+    "characterId": "10000103",
+    "name": "Xilonen",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/xilonen-quickguide/",
+      "version": "5.4"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/xilonen/",
+      "version": "5.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000025": {
+    "characterId": "10000025",
+    "name": "Xingqiu",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/xingqiu-quickguide/",
+      "version": "5.7"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/xingqiu/",
+      "version": "4.0"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/xingqiu/",
+      "version": "6.0"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000044": {
+    "characterId": "10000044",
+    "name": "Xinyan",
+    "source": "KeqingMains",
+    "quick": null,
+    "extended": {
+      "url": "https://keqingmains.com/xinyan/",
+      "version": "3.3"
+    },
+    "infographic": null,
+    "indexedAt": "2026-09-26"
+  },
+  "10000058": {
+    "characterId": "10000058",
+    "name": "Yae Miko",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/yae-quickguide/",
+      "version": "7.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/yae/",
+      "version": "4.5"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/yae/",
+      "version": "5.7"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000048": {
+    "characterId": "10000048",
+    "name": "Yanfei",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/yanfei-quickguide/",
+      "version": "4.5"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/yanfei/",
+      "version": "2.7"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/yanfei/",
+      "version": "5.3"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000077": {
+    "characterId": "10000077",
+    "name": "Yaoyao",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/yaoyao-quickguide/",
+      "version": "4.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/yaoyao/",
+      "version": "4.0"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/yaoyao/",
+      "version": "5.4"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000060": {
+    "characterId": "10000060",
+    "name": "Yelan",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/yelan-quickguide/",
+      "version": "5.4"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/yelan/",
+      "version": "3.4"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/yelan/",
+      "version": "5.5"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000049": {
+    "characterId": "10000049",
+    "name": "Yoimiya",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/yoimiya-quickguide/",
+      "version": "6.0"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/yoimiya/",
+      "version": "4.7"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/yoimiya/",
+      "version": "5.7"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000109": {
+    "characterId": "10000109",
+    "name": "Yumemizuki Mizuki",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/mizuki-quickguide/",
+      "version": "7.0"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/mizuki/",
+      "version": "5.4"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000064": {
+    "characterId": "10000064",
+    "name": "Yun Jin",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/yunjin-quickguide/",
+      "version": "5.4"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/yunjin/",
+      "version": "3.1"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/yun-jin/",
+      "version": "5.6"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000030": {
+    "characterId": "10000030",
+    "name": "Zhongli",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/zhongli-quickguide/",
+      "version": "6.1"
+    },
+    "extended": {
+      "url": "https://keqingmains.com/zhongli/",
+      "version": "3.1"
+    },
+    "infographic": {
+      "url": "https://keqingmains.com/i/zhongli/",
+      "version": "5.2"
+    },
+    "indexedAt": "2026-09-26"
+  },
+  "10000126": {
+    "characterId": "10000126",
+    "name": "Zibai",
+    "source": "KeqingMains",
+    "quick": {
+      "url": "https://keqingmains.com/q/zibai-quickguide/",
+      "version": "6.5"
+    },
+    "extended": null,
+    "infographic": {
+      "url": "https://keqingmains.com/i/zibai/",
+      "version": "6.5"
+    },
+    "indexedAt": "2026-09-26"
+  }
+}

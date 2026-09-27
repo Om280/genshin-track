@@ -1,56 +1,69 @@
 # Genshin Track
 
-A Genshin Impact build tracker and farming planner that runs entirely in your browser. No account, no server — all your data lives in localStorage.
+An unofficial Genshin Impact build and account companion. **Not affiliated with HoYoverse.** Existing Vite/React UI, Enka showcase API and restricted wish-import backend are preserved.
 
-## Features
-
-- **Goal tracker** — track characters and weapons with exact material math (ascension, talents, EXP, mora), minus what's already in your inventory
-- **Today's farming** — talent-book domain rotation by weekday and server
-- **Build guides** — weapons, artifacts, main/sub stats, talent priority for all 124 characters, with current-meta team comps and best-partner pairings
-- **Playstyle & downsides notes** — how each character actually plays and their honest weaknesses
-- **My Characters library** — import your account via GOOD format (Genshin Optimizer export) or add characters manually
-- **Team readiness** — see which recommended teams you can field with your roster, and which pull unlocks the most teams
-- **Resin planning** — ley line counts for EXP/Mora, resin cost tables, condensed resin math
-- **Weapon reverse-index** — see who each weapon is good for
-- **Artifact info** — farming domains, strongbox availability (current 40-set list), crit-rate overcap warnings
-- **Weekly summary** — total farming plan across all goals
-- **Backup/restore** — export and import all your data as JSON
-
-## Running locally
-
-Requirements: [Node.js](https://nodejs.org/) 18 or newer.
+## Run and check
 
 ```bash
 npm install
 npm run dev
-```
-
-Then open http://localhost:5173 in your browser.
-
-### Production build
-
-```bash
+npm test
 npm run build
-npm run preview
+# Optional browser smoke after `npm run dev` in another terminal:
+npx playwright install chromium
+npm run smoke
+npm run workflow
+node tests/browser-guide-coverage.mjs
+node tests/browser-all-guides.mjs
+node tests/browser-polish.mjs
+node tests/browser-guide-final.mjs # includes live public Enka UID check
+node build_guide_queue.mjs
 ```
 
-The static site lands in `dist/` — you can host that folder anywhere (GitHub Pages, Netlify, etc.).
+The UI runs on port 5173; Vite proxies `/api` to the Node server on 3001. Vercel entrypoints and SPA rewrites remain under `api/` and `vercel.json`.
 
-### Regenerating game data
+## Actual coverage · source snapshot 27 September 2026
 
-Character/weapon/material data is pre-generated into `src/data/*.json`. To rebuild it (e.g. after a genshin-db update):
+| Type | Count | Meaning |
+| --- | ---: | --- |
+| Character entries | 154 | Includes separate Traveler and Manekin variants. |
+| Locally structured, minimum-section-validated guides | **150** | 130 KQM-sourced profiles (including 3 hand-curated) and 20 alternative-source profiles (16 Manekin/Manekina variants, Vesna, Vodyanitsa and two Cryo Traveler variants). Actual recommendations are stored locally, keyed by game ID. |
+| Individually editorially summarized | **3** | Albedo, Furina and Clorinde; an editorial summary does not certify version-7.1 freshness. The other 147 are classified `source_structured`, not editorially reviewed. |
+| Confirmed current / recent / outdated | **0 / 0 / 0** | Version-7.1 freshness was **not** certified for each character. All 150 have `REVIEW NEEDED` freshness status, including the older source versions. |
+| Unverified | **4** | Unresonated / unassigned-element Traveler IDs only; they do not have independent elemental combat builds. Each has an explicit reason in `guideExceptions.json`. |
+| Role-checked team cards | **9** | Seven on the original hand-curated guides plus two source-listed alternative-source teams; one of the seven is a source-supported KQM Durin core composition, not an exact four-name caption. The Clorinde/Fischl/Durin/Chevreuse quartet is supported by the KQM Durin guide's on-field Clorinde recommendation and Durin–Fischl–Chevreuse core; no Clorinde-specific rotation is claimed. |
+| KQM source-caption rosters | Source-linked, not team-role reviewed | Exact-source example membership is displayed separately from buildable team cards; headings/captions alone do not certify member roles, rotations or current-version ranking. |
+| Character materials | 126 | No invented quantities for entries without matched materials; Manekin progression is separately attributed to Icy Veins. |
 
-```bash
-npm run data
-```
+"Source structured" counts a **substantive, ID-validated local build profile** (overview, sourced gear, main stats, talent data or explicit field-level unavailability, source metadata), not an individual editorial certification. Source-index dates are distinct from editorial review dates. Every source-backed profile still needs a **freshness** check before being called CURRENT. Never treat source-caption rosters as confirmed team cards. All 150 pages expose actual structured build options; the exception panel is limited to four element-less Traveler entries.
 
-## Tech
+### Constellation-specific review (separate from full build review)
 
-- React 19 + React Router 7
-- Vite 8
-- [genshin-db](https://github.com/theBowja/genshin-db) (build-time only)
-- Icons served from gi.yatta.moe
+**13 / 154** entries have an individually checked optional early constellation with an effect, account/context reason, KQM source/version and scoped review date in `src/data/earlyConstellations.js`. This is **not** a full-build or version-7.1 freshness certification, and C0 remains viable wherever the source says so. The other **141** entries have no independently reviewed early stopping point here; the UI does not assume C1 or label absence of a review as a weak constellation. Their names/IDs are generated in `src/data/unverifiedConstellations.json` for maintenance. The 4 unassigned-element Traveler variants still have no elemental build.
 
-## Disclaimer
+## Product features
 
-This is a fan-made tool. Genshin Impact is a trademark of HoYoverse (miHoYo). This project is not affiliated with or endorsed by HoYoverse.
+- Public Enka UID import with server and browser TTL, stable ID normalization, actual showcase talents, stats, weapon refinement and artifact details. No login or private inventory access.
+- Clorinde is the verified-ID dashboard hero with locally cached official art. Character-element accents derive from `elementTheme`; the surrounding UI retains restrained near-black surfaces. Game assets use ID-specific verified cache paths with a neutral fallback rather than mapping to an unrelated icon.
+- Cached, PNG-verified icons: all 154 character portraits and 255 weapon icons; 63/65 artifact set icons, 299 artifact piece icons and 1,254 skill/constellation icons. Source-matched effect text covers 63/65 sets, including the four actual one-piece circlet sets; two historical sets remain unverified. Two historical artifact sets have unavailable source icons; some variant skill paths are unavailable. They intentionally show a neutral placeholder. Element icons, all 154 guide entries mapped to 124 locally verified full Enka Gacha-art WebPs (variants share the same character art), the three original featured hero files, and attributed weapon/set metadata remain in place. A source-matched material catalog has 514 IDs; 508 item images are PNG-verified and six unavailable images retain neutral fallbacks.
+- Guides now have 150 source-attributed local structured builds with source-section playstyle context; KQM source-caption rosters are separate from role-checked team cards and only four unassigned Traveler entries remain unverified. A local material browser at `/materials` and `/materials/:id` shows source-matched icons, rarity where available, and matching characters and weapons; six-stage character tables appear on guides. Builds retain contextual weapons/artifacts, role-ordered source teams, distinct talent states and actual Enka-versus-guide comparison. Weapon level-90 base ATK, secondary value and passive information come from attributed game data; no arbitrary build score.
+- Goals: one compact, scrollable create/update editor (no wizard) with current → target character, weapon and three independent talents; live material chips with required/owned/remaining and source links. Enka, GOOD or manual values prefill CURRENT; guide numeric targets are used only when actually specified. Centralized nine-level talent costs, 90-level character/weapon EXP snapshots and manually selected six-stage character/weapon ascension tables produce delta costs, with unknown values still unknown. Unsupported talent material families and unselected ascension stages stay explicitly partial, not zero. New unimported planning goals begin at character/talent level 1, explicitly as manual starting defaults; unknown imported levels stay unknown. Unsourced level and ascension targets remain blank rather than silently setting them to 90 or stage 6; explicitly unowned characters route to Wishes. Fixed Mora charges cover verified talent and explicitly chosen ascension stages. The additional EXP-book/weapon-ore Mora budget uses [Game8's character-book costs](https://game8.co/games/Genshin-Impact/archives/297404) and [weapon-ore enhancement costs](https://discover.hubpages.com/games-hobbies/Genshin-Impact-How-to-Quickly-Max-Level-Your-Weapons) as sourced per-item book/ore-use scenarios (balanced books by default; optional Hero-only; Mystic-only weapon ore). In-level EXP, cap overflow and actual consumed items remain unknown; the budget is a plan, not a receipt. Inline quick updates recompute card resource summaries. Not appearing in the public showcase does not prove the character is unowned.
+- Account import: ENKA public showcase, local GOOD v1–v3 JSON up to 3 MB (characters, equipped items and weapon/artifact inventory), documented gcsim **config text** (character, weapon, constellation, talent, set-count and aggregate sim stats), and manual current values. Data remains source-separated; reimports merge per character without erasing an omitted GOOD inventory section, and an explicit UID mismatch is rejected. Enka wins only the current publicly equipped build, GOOD retains inventory, and gcsim never proves ownership. Absent characters are marked unowned **only if** the user explicitly confirms a complete GOOD roster. Team ownership, a can-build filter, an account roster and team→goal links work on reviewed team cards. No direct gcsim account API or native game-client read is claimed.
+- Wishes: real HoYoverse gacha-log URL import through a restricted HTTPS host allowlist; one-click copied-history-link import (browser clipboard permission required), manual link paste, UIGF/HoYoverse/Paimon.moe Settings JSON backup and manual entry. Stored-record statistics, banner pity, local persistence, cross-format merge/dedup and a worst-case wish planner. UID/account mixing is rejected when identifiable. Imported history can be incomplete; guarantee and 50/50 are **not** inferred from gaps.
+- Farmable Today on Goals uses browser-local weekday and a source-matched domain/weapon/talent schedule snapshot; Sunday displays every source-matched rotation (not a six-domain sample); material cards include source-linked character portraits or weapon icons, and active goals take precedence. The browser-local day may differ from the in-game day near the server reset. Weekly-boss materials are shown separately without guessing a daily domain; unmatched material schedules remain unknown. `scripts/build_domain_schedule.py` snapshots the [published farming schedule](https://gamevika.com/en/genshin/farming) (maintenance dependencies: Python `requests` and `beautifulsoup4`); inspect its 147 matched material IDs and any unmatched names before refreshing. Paimon.moe item-day metadata supplies talent weekday fallback only when domain identity is unverified.
+- Responsive navigation, compact ID-linked tooltips with keyboard focus and tap-to-open, and image-load transitions respecting reduced motion. Manual achievements/exploration; event/banner schedules remain unverified.
+
+## Limits and provenance
+
+- **This is not a fully current-verified 154-character editorial team database.** The new profiles are substantive source-structured data, not empty `reviewed:true` placeholders, but source versions span older patches. The local KQM source transcription and ID/field validation are not a per-character mechanics audit for version 7.1. Most KQM page caption rosters still lack validated main-DPS/role ordering and are therefore shown as source examples, not team recommendations. 41 profiles have neither a role-reviewed card nor an exact transcribable KQM roster; the team field is explicitly marked unavailable. Numeric talent levels appear only when the cited source explicitly supplies them. The 4 unassigned Traveler entries have no independent build. All 150 available builds remain `REVIEW NEEDED` for freshness; none are marked CURRENT.
+- **This is a Web-only import flow, not native auto-detection.** A browser cannot securely read an in-game WebView or operating-system logs. The working compatible import uses a copied or pasted HoYoverse history URL, JSON backup or manual record, and links to Paimon’s current platform instructions. No undocumented endpoint, external service key, raw URL persistence or login is used. A live history-link import requires a real, unexpired user authkey; automated tests cover JSON/merge and URL rejection. The optional Playwright smoke checks 10 routes at 320, 390, 768, 1024 and 1440 px on either the development server or a production preview (`SMOKE_ORIGIN=http://localhost:4173 npm run smoke`), including a mocked clipboard-to-import flow. `npm run workflow` checks GOOD → roster → owned team → goal deltas, gcsim/manual merging and mocked Enka HTTP failures and TTL; they cannot validate a private account’s live history without a real, unexpired authkey.
+- Enka sees only the public showcase. Mora, Resin, all owned characters, private wishes and exploration are not available from Enka; manual values stay labelled as such. Older wish records may no longer be exposed by HoYoverse; missing history is never treated as zero. Vercel’s in-memory UID cache lasts only while an instance is warm.
+- Some artifact set and variant icons are not available at Enka’s declared path; a clean placeholder is preferable to a wrong game image. Six material icons are unavailable from the matched upstream slug paths; they retain neutral placeholders. A central talent-cost table supplies exact base-talent level-up quantities only where three book IDs, three enemy-drop IDs and a weekly-boss item were source-matched. The few ambiguous families (for example Traveler) remain partially unverified. Character/weapon EXP values are cumulative level deltas through level 90, excluding EXP already accumulated inside the current level; book/ore-use budgets and Mora can differ with book choice, cap overflow, and rounding. Weapon ascension and character ascension costs require explicitly selected completed stages. Only a clearly labelled **gross WL 6–9 ley-line Resin scenario** is calculated automatically: [20 Resin for 110,000–135,000 character EXP or 60,000 Mora](https://genshin-impact.fandom.com/wiki/Ley_Line_Outcrop). The estimated range excludes owned books/Mora, talent/weapon domains, bosses, crafting and unknown costs. The separate user-entered Resin estimate remains manual; no RNG-dependent domain forecast is claimed. No production URL was deployed from this workspace.
+
+## Sources and maintenance
+
+- [Enka.Network game data and API docs](https://github.com/EnkaNetwork/API-docs) — public UID schema, identifier metadata, source icon paths and TTL. `make_data.py` refreshes the catalog; `cache_game_icons.py` verifies PNG responses and regenerates the portrait/weapon manifest. `scripts/cache_splash_art.py` checks full Gacha PNG dimensions, caches ID-mapped WebPs and records each art URL in `splashManifest.json`; visual checks found Enka’s male PlayerBoy/MannequinBoy full-art suffixes are reversed relative to their portrait suffixes, so the art cache explicitly swaps those two names (female names match). Check missing files before claiming full asset coverage.
+- [KeqingMains](https://keqingmains.com/) — `build_guide_index.py` snapshots links/version labels and `build_kqm_notes.py` conservatively extracts source-tagged table items, source playstyle snippets, priority strings, main stats and identifiable caption rosters; variant headings preserve build context where possible. Extraction is **not review**. Recheck multi-build contexts, source updates and attribution before publishing as verified recommendations. The three hand-curated summaries and their seven role-checked teams live in `src/data/guides.js`; two alternative-source team cards are in `build_alternate_guides.py`. `src/lib/teams.js` flags near-swap team variants requiring editorial explanation. The [KQM changelog](https://keqingmains.com/changelog/) helps per-character freshness auditing; the linked original guide remains definitive.
+- Guide maintenance: `python build_kqm_notes.py` → `python enrich_kqm_source_notes.py` → `python extract_kqm_heading_rosters.py` → `python build_structured_guides.py`; the source transcriptions and normalized guide profiles are separate local files so missing fields are explicit. `python build_alternate_guides.py` maintains the Icy Veins and Game8 alternatives with exact source URLs. `node build_guide_queue.mjs` produces `src/data/guideQueue.json` for all 154 IDs. `tests/guide-coverage.test.js` fails on an empty purportedly reviewed profile, a missing source/item mapping, a missing exception reason, or a Clorinde squad regression. `tests/browser-guide-coverage.mjs` opens one profile per element plus alternative sources and all four exceptions. `tests/browser-all-guides.mjs` loads every one of the 154 guide routes and checks the substantive panels or the explicit exception. Re-check the source text when updating enrichment overrides.
+- [Paimon.moe repository](https://github.com/MadeBaruna/paimon-moe) — `build_character_lore.py` snapshots attributed game-data text, and `src/data/entityMeta.json`/`src/data/paimonIds.json` are attributed metadata. `build_material_catalog.mjs` and `build_weapon_materials.mjs` parse character/item/weapon JavaScript as AST data without executing it to match six-stage character and weapon costs to 514 material IDs; `cache_material_icons.py` verifies matching PNGs. Refresh **in that order**: `node build_material_catalog.mjs && node build_weapon_materials.mjs && python cache_material_icons.py` (Python needs `requests` and `beautifulsoup4` for the other data scripts). Talent base-level cost table is attributed in `src/data/talentCostTable.js`; cumulative character/weapon EXP comes from Paimon.moe `characterExp.js`/`weaponExp.js` in `src/data/levelCosts.json`. Artifact effect metadata is refreshed with `python update_artifact_effects.py`, matching older sets and one-piece circlets to Paimon.moe [artifact text](https://github.com/MadeBaruna/paimon-moe/blob/main/src/data/artifacts/en.json) and newer sets to [GameWith artifact summaries](https://gamewith.net/genshin-impact/article/show/22393) by exact normalized set name; two historical sets have no verified effect. Repository MIT license in `public/PAIMON-MOE-LICENSE.txt`; underlying Genshin text and imagery remain HoYoverse property. Wish backup compatibility is independently implemented and does not call a Paimon.moe account/API endpoint.
+- Current UI game version is centralized in `src/data/version.js`; game-data snapshots, versions and statuses need an update when upstream sources change. The full 154-character roster has not had a current-version editorial team/weapon/artifact review; do not call extracted source captions current recommendations. Recommendation data must remain outside UI components.

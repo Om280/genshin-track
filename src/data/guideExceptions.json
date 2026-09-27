@@ -1,0 +1,6 @@
+{
+  "10000005": {"guideStatus":"unverified","reason":"Unresonated Traveler has no independent elemental combat build; choose a resonated-element Traveler guide before planning gear.","sourceStatus":"No independent build source for the unassigned-element entry; elemental KQM Traveler guides exist."},
+  "10000005-501": {"guideStatus":"unverified","reason":"This unassigned Traveler variant has no distinct combat element or build; use the corresponding resonated-element Traveler guide.","sourceStatus":"No independent build source for the unassigned-element entry; elemental KQM Traveler guides exist."},
+  "10000007": {"guideStatus":"unverified","reason":"Unresonated Traveler has no independent elemental combat build; choose a resonated-element Traveler guide before planning gear.","sourceStatus":"No independent build source for the unassigned-element entry; elemental KQM Traveler guides exist."},
+  "10000007-701": {"guideStatus":"unverified","reason":"This unassigned Traveler variant has no distinct combat element or build; use the corresponding resonated-element Traveler guide.","sourceStatus":"No independent build source for the unassigned-element entry; elemental KQM Traveler guides exist."}
+}

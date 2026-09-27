@@ -1,0 +1,104 @@
+{
+  "method": "Source-expression order only, not role-based; ambiguous multi-context sources deliberately marked CONTEXTUAL; numeric targets unchanged; no per-character current-patch review claimed.",
+  "contextDependent": [
+    {
+      "id": "10000021",
+      "name": "Amber",
+      "buildId": "kqm-10000021",
+      "sourcePriority": "C0 Melt Charged Shot: Normal Attack >> Burst > Skill C4+ Bunny Bomber: Skill ≥ Normal Attack > Burst",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000014",
+      "name": "Barbara",
+      "buildId": "kqm-10000014",
+      "sourcePriority": "Pure healer: Skill = Burst; Vaporize DPS: Normal Attack > Skill > Burst",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000125",
+      "name": "Columbina",
+      "buildId": "kqm-10000125",
+      "sourcePriority": "Off-Field: Skill, Burst > Character Level On-Field: Normal Attack = Skill ≥ Character Level ≥ Burst",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000068",
+      "name": "Dori",
+      "buildId": "kqm-10000068",
+      "sourcePriority": "C6 Driver: Burst > Normal Attack > Skill Non-C6: Burst > Skill",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000031",
+      "name": "Fischl",
+      "buildId": "kqm-10000031",
+      "sourcePriority": "Off-Field DPS: Skill > Burst On-Field DPS: Skill = Normal Attack > Burst",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000085",
+      "name": "Freminet",
+      "buildId": "kqm-10000085",
+      "sourcePriority": "Skill DPS: Skill > Normal Attack >>> Burst Plunging DPS: Normal Attack > Skill",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000037",
+      "name": "Ganyu",
+      "buildId": "kqm-10000037",
+      "sourcePriority": "Normal Attack ≥ Burst > Skill (Freeze) Normal Attack > Skill (Melt) Burst > Skill > Normal Attack (Off-Field Support)",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000003",
+      "name": "Jean",
+      "buildId": "kqm-10000003",
+      "sourcePriority": "Support Burst ≥ Skill Sunfire Level 90 > Burst ≥ Skill",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000108",
+      "name": "Lan Yan",
+      "buildId": "kqm-10000108",
+      "sourcePriority": "Shield Support: Skill > Burst > Character Level On-Field Driver: Character Level > Skill > Burst",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000041",
+      "name": "Mona",
+      "buildId": "kqm-10000041",
+      "sourcePriority": "Talent Priority Support: Burst > Skill > Normal Attack On-field DPS: Burst ≥ Normal Attack > Skill",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000053",
+      "name": "Sayu",
+      "buildId": "kqm-10000053",
+      "sourcePriority": "Off-Field Burst Support: Burst > Skill On-Field Driver: Skill > Burst",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000059",
+      "name": "Shikanoin Heizou",
+      "buildId": "kqm-10000059",
+      "sourcePriority": "Talent Priority Quickswap Support: Skill > Burst > NA On-Field Driver or Quickswap DPS: Skill > NA > Burst",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000075",
+      "name": "Wanderer",
+      "buildId": "kqm-10000075",
+      "sourcePriority": "C0–C1: Normal Attack ≥ Skill > Burst C2–C6: Normal Attack ≥ Burst > Skill",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    },
+    {
+      "id": "10000025",
+      "name": "Xingqiu",
+      "buildId": "kqm-10000025",
+      "sourcePriority": "Off-Field DPS: Burst > Skill On-Field DPS: Skill = Burst > Normal Attack",
+      "status": "CONTEXTUAL · needs separate source/build review"
+    }
+  ],
+  "reorderedCount": 21
+}

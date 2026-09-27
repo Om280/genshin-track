@@ -1,0 +1,129 @@
+{
+  "method": "Identical source-expression blurbs across 4+ different character builds are flagged for independent manual source/context review, not automatically treated as wrong. This is an internal audit watchlist, not evidence of editorial verification.",
+  "groups": [
+    {
+      "sourceExpression": "Source priority: Skill > Burst",
+      "count": 14,
+      "status": "NEEDS INDEPENDENT CHARACTER/BUILD REVIEW",
+      "builds": [
+        {
+          "id": "10000148",
+          "name": "Alyosha",
+          "buildId": "kqm-10000148"
+        },
+        {
+          "id": "10000090",
+          "name": "Chevreuse",
+          "buildId": "kqm-10000090"
+        },
+        {
+          "id": "10000107",
+          "name": "Citlali",
+          "buildId": "kqm-10000107"
+        },
+        {
+          "id": "10000099",
+          "name": "Emilie",
+          "buildId": "kqm-10000099"
+        },
+        {
+          "id": "10000112",
+          "name": "Escoffier",
+          "buildId": "kqm-10000112"
+        },
+        {
+          "id": "10000066",
+          "name": "Kamisato Ayato",
+          "buildId": "kqm-10000066"
+        },
+        {
+          "id": "10000101",
+          "name": "Kinich",
+          "buildId": "kqm-10000101"
+        },
+        {
+          "id": "10000129",
+          "name": "Lohen",
+          "buildId": "kqm-10000129"
+        },
+        {
+          "id": "10000122",
+          "name": "Nefer",
+          "buildId": "kqm-10000122"
+        },
+        {
+          "id": "10000035",
+          "name": "Qiqi",
+          "buildId": "kqm-10000035"
+        },
+        {
+          "id": "10000063",
+          "name": "Shenhe",
+          "buildId": "kqm-10000063"
+        },
+        {
+          "id": "10000114",
+          "name": "Skirk",
+          "buildId": "kqm-10000114"
+        },
+        {
+          "id": "10000005-503",
+          "name": "Traveler",
+          "buildId": "kqm-10000005-503"
+        },
+        {
+          "id": "10000007-703",
+          "name": "Traveler",
+          "buildId": "kqm-10000007-703"
+        }
+      ]
+    },
+    {
+      "sourceExpression": "Source priority: Burst > Skill",
+      "count": 8,
+      "status": "NEEDS INDEPENDENT CHARACTER/BUILD REVIEW",
+      "builds": [
+        {
+          "id": "10000124",
+          "name": "Jahoda",
+          "buildId": "kqm-10000124"
+        },
+        {
+          "id": "10000106",
+          "name": "Mavuika",
+          "buildId": "kqm-10000106"
+        },
+        {
+          "id": "10000045",
+          "name": "Rosaria",
+          "buildId": "kqm-10000045"
+        },
+        {
+          "id": "10000005-508",
+          "name": "Traveler",
+          "buildId": "kqm-10000005-508"
+        },
+        {
+          "id": "10000007-708",
+          "name": "Traveler",
+          "buildId": "kqm-10000007-708"
+        },
+        {
+          "id": "10000023",
+          "name": "Xiangling",
+          "buildId": "kqm-10000023"
+        },
+        {
+          "id": "10000093",
+          "name": "Xianyun",
+          "buildId": "kqm-10000093"
+        },
+        {
+          "id": "10000060",
+          "name": "Yelan",
+          "buildId": "kqm-10000060"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+import {importWishHistory,PublicError} from '../server/services.js';
+export default async function handler(req,res){if(req.method!=='POST')return res.status(405).json({message:'Method not allowed.'});res.setHeader('Cache-Control','no-store');try{return res.status(200).json(await importWishHistory(req.body?.url))}catch(e){return res.status(e instanceof PublicError?e.status:502).json({message:e instanceof PublicError?e.message:'Wish history could not be fetched right now.'})}}
